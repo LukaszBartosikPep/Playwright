@@ -14,7 +14,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 
 public class Main {
     public static void main(String[] args) {
-    MediaExpertTest mediaExpert= new MediaExpertTest();
+
 
 //        try (Playwright playwright = Playwright.create()) {
 //
