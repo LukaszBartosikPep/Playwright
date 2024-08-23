@@ -20,7 +20,7 @@ public class SauceDemoTest {
     @BeforeAll
     static void launchBrowser() {
         playwright = Playwright.create();
-        BrowserType.LaunchOptions options=new BrowserType.LaunchOptions().setHeadless(false);
+        BrowserType.LaunchOptions options=new BrowserType.LaunchOptions().setHeadless(true);
         browser = playwright.chromium().launch(options);
     }
 
