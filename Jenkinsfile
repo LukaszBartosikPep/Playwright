@@ -26,11 +26,13 @@ pipeline {
                     WORKDIR /app
                     COPY . .
                     RUN mvn -Dtest=org.example.SauceDemoTest compile
+                    '''
 
 
 
                     // Build the Docker image using the dynamically created Dockerfile
                     sh "docker build -t ${DOCKER_IMAGE} ."
+
                 }
             }
         }
