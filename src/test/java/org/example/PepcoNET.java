@@ -44,7 +44,7 @@ public class PepcoNET {
     void pepcoNetTest() throws InterruptedException {
         page.navigate("https://net.pepco.eu/");
         Thread.sleep(2222);
-        page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Szukaj")).click();
+        page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Search")).click();
 
     }
 }
