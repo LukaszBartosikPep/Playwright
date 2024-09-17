@@ -43,7 +43,7 @@ public class PepcoNET {
     @Test
     void pepcoNetTest() throws InterruptedException {
         page.navigate("https://net.pepco.eu/");
-        Thread.sleep(2222);
+        Thread.sleep(44444);
         page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Search")).click();
 
     }
