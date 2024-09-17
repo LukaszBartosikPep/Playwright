@@ -74,7 +74,7 @@ public class SauceDemoTest {
         addProductsToCart();
         Locator checkoutButton=page.getByText("Checkout");
         checkoutButton.click();
-        Thread.sleep(20000);
+//        Thread.sleep(20000);
 
     }
 //    @Test
