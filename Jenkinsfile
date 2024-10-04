@@ -26,6 +26,7 @@ pipeline {
                     WORKDIR /app
                     COPY . .
                     RUN mvn -Dtest=org.example.SauceDemoTest compile
+                    mvn -Dtest=org.example.SauceDemoTest test
                     '''
 
 
