@@ -40,7 +40,7 @@ pipeline {
                 sh 'mvn -Dtest=org.example.SauceDemoTest test'
             }
         }
-    }
+    
 
         stage('Post Actions') {
             steps {
