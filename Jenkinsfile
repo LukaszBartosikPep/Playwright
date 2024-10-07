@@ -2,12 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                // Clone the repository
-                git url: 'https://github.com/LukaszBartosikPep/Playwright.git'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         // Clone the repository
+        //         git url: 'https://github.com/LukaszBartosikPep/Playwright.git'
+        //     }
+        // }
 
         stage('Run Tests') {
             steps {
